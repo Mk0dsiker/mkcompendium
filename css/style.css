@@ -1,0 +1,38 @@
+/* CSS reset                   Color Palette:  */
+/*                top  #f07241, bottom #480048 */
+/*                              darker #300030 */
+
+/* CSS reset        */ 
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* CSS body */
+body {
+    width: 100%;
+}
+
+/* CSS header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-color: #6510aa;
+}
+
+.imgMSG img {
+    border-radius: 50%;
+    width: 70px;
+    margin: 10px 20px;
+}
+
+.webMSG p {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size:  16px;
+}
